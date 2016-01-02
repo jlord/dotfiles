@@ -1,7 +1,7 @@
 # Setting Up From Scratch
 
 - [ ] Encryt/FileVault in System Preferences > Security OS X
-- Install [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+- [ ] Install [Xcode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
 - [ ] Git comes on OS X, configure it:
 	- [ ] `git config --global user.name "name"`
 	- [ ] `git config --global user.email <email@email.com>`
