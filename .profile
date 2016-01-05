@@ -1,4 +1,4 @@
-source ~/git-completion.bash
+source ~/.git-completion.bash
 
 PATH=node_modules/.bin:$PATH
 
