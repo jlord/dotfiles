@@ -8,7 +8,8 @@
 	- [ ] Install Git auto complete
 		- `curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash`
 - [ ] Install bash profile from [jlord/dotfiles ](https://github.com/jlord/dotfiles)
-- [ ] Give self permissions `chown -R <user> /usr/local`
+- [ ] Give self permissions `sudo chown -R $USER /usr/local` for npm
+- [ ] Give self permissions `sudo chown -R $USER /Library/Caches/Homebrew/` for Homebrew
   - Find username `whoami`
 - [ ] Install [Node.js](http://nodejs.org)
 - [ ] Generate an [SSH Key](https://help.github.com/articles/generating-ssh-keys/)
