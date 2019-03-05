@@ -2,12 +2,14 @@ source ~/.git-completion.bash
 
 PATH=node_modules/.bin:$PATH
 
+alias gdab="git branch | grep -v "master" | xargs git branch -D"
+
 BLUE="\[\e[0;34m\]"
 RED="\[\e[4;31m\]"
 CYAN="\[\e[0;36m\]"
 WHITE="\[\e[0;37m\]"
 
-export PS1="$BLUE\${BRANCH}\[\e[m\] $WHITE@\u $CYAN\w:\[\e[0m\] "
+export PS1="$CYAN\W\[\e[0m\] $BLUE\${BRANCH}\[\e[m\]"
 
 function get_branch {
   if [ -d .git ]; then
@@ -18,11 +20,3 @@ function get_branch {
 }
 
 PROMPT_COMMAND="get_branch; $PROMPT_COMMAND"
-
-# Other options for when I feel like changing it up
-# ⚑☂◉≀∿∾≜⊣⟢ ☗
-# (❍ᴥ❍ʋ)
-# ⚆ _ ⚆
-# ~(˘▾˘~)
-# ℬ℞ª∩©ℌ
-# (づ｡◕‿‿◕｡)づ

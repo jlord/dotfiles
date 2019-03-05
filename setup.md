@@ -18,3 +18,7 @@
 - [ ] Install [1password](https://agilebits.com)
 - [ ] Add SSH key to [GitHub account settings](https://github.com/settings/ssh)
 - [ ] Create [access token](https://github.com/settings/tokens) to use for first password entry.
+
+## Applications
+
+- [Atom editor](https://atom.io)
