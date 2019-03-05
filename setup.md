@@ -22,3 +22,5 @@
 ## Applications
 
 - [Atom editor](https://atom.io)
+- [Mojibar](https://github.com/muan/mojibar/releases)
+
